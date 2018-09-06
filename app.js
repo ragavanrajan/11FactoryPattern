@@ -22,6 +22,8 @@ function MemberFactory() {
     }
 }
 
+// The following are the subclasses
+
 const SimpleMemberShip = function(name) {
     this.name = name;
     this.cost = '$5';
